@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>JG Cheat Sheet</title>
+    <!-- Google Fonts Setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>JG Cheat Sheet </h1>
+    <div class="titleblock">
+        <h1>JG</h1>
+        <h6 class="cheat">Cheat</h6><h6 class="sheet">Sheet</h6>
+    </div>
     <div class="git">
         <h2>GIT</h2>
         <table>
-            <tr>
+            <thead>
                 <th>Command</th>
                 <th>Description</th>
-            </tr>
+            </thead>
             <tr>
                 <td class="cmd">git config --global user.name “[firstname lastname]”</td>
                 <td>SETUP: set a name that is identifiable for credit when review version history</td>
@@ -94,15 +106,17 @@
 
             </tr>
         </table>
-        <h3>For a full listing of git commands, <span><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">click here</a></span></h3>
+        <h3>For a full listing of git commands, <span><a
+                    href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">click
+                    here.</a></span></h3>
     </div>
     <div class="bash">
         <h2>BASH</h2>
         <table>
-            <tr>
+            <thead>
                 <th>Command</th>
                 <th>Description</th>
-            </tr>
+            </thead>
             <tr>
                 <td class="cmd">ls</td>
                 <td>list directory contents</td>
@@ -168,23 +182,167 @@
 
             </tr>
         </table>
-        <h3>For a full listing of bash commands, <span><a href="https://www.educative.io/blog/bash-shell-command-cheat-sheet" target="_blank">click here</a></span></h3>
+        <h3>For a full listing of bash commands, <span><a
+                    href="https://www.educative.io/blog/bash-shell-command-cheat-sheet" target="_blank">click
+                    here.</a></span></h3>
     </div>
     <div class="html">
         <h2>HTML</h2>
+        <table>
+            <thead>
+                <th>Tag</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cmd">&lt;!--[comment]--&gt;</td>
+                    <td>HTML comment</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;img src="url/file"&gt;</td>
+                    <td>HTML image</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;table&gt;</td>
+                    <td>HTML table wrapper</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;thead&gt;</td>
+                    <td>HTML table header row content</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;th&gt;</td>
+                    <td>Set as specific cell as HTML header</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;tbody&gt;</td>
+                    <td>HTML table body row content</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;tr&gt;</td>
+                    <td>HTML table row container</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;td&gt;</td>
+                    <td>HTML table data</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;tfoot&gt;</td>
+                    <td>HTML table footer</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;colspan&gt;</td>
+                    <td>Defines a td column span</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd">&lt;rowspan&gt;</td>
+                    <td>Defines a td row span</td>
 
-        <h3>For a full listing of html commands, <span><a href="https://www.w3schools.com/html/default.asp" target="_blank">click here</a></span></h3>
+                </tr>
+            </tbody>
+        </table>
+        <h3>For a full listing of html commands, <span><a href="https://www.w3schools.com/html/default.asp"
+                    target="_blank">click here.</a></span></h3>
     </div>
+    <div class="css">
+        <h2>CSS</h2>
+        <table>
+            <thead>
+                <th>Property</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cmd"> width: 50%; <br>
+                        margin: 0 auto;</td>
+                    <td>Set width of element and dynamically center</td>
 
+                </tr>
+                <tr>
+                    <td class="cmd"> tr:nth-child(odd) { <br>
+                        tr:nth-child(even) { </td>
+                    <td>Selectors for table alternating colors</td>
+
+                </tr>
+            </tbody>
+        </table>
+        <h3>For a full listing of css properties, <span><a href="https://www.w3schools.com/cssref/index.php"
+                    target="_blank">click here.</a></span></h3>
+    </div>
+    <div class="vsc">
+        <h2>VS Code</h2>
+        <table>
+            <thead>
+                <th>Command</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cmd"> Ctrl+L</td>
+                    <td>Select entire line where cursor is</td>
+                </tr>
+                <tr>
+                    <td class="cmd"> Shift+Tab</td>
+                    <td>Unindent Line/Selection</td>
+                </tr>
+                <tr>
+                    <td class="cmd"> Shift+Alt+F</td>
+                    <td>Auto-Format Code</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="html char">
+        <h2>HTML Character Entities</h2>
+        <table>
+            <thead>
+                <th>Character</th>
+                <th>HTML Equivalent</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;</td>
+                    <td class="cmd"> &amplt; </td>
+
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td class="cmd"> &ampgt;</td>
+
+                </tr>
+                <tr>
+                    <td>&lbrace;</td>
+                    <td class="cmd"> &amplbrace; </td>
+
+                </tr>
+                <tr>
+                    <td>&lbrace;</td>
+                    <td class="cmd"> &amplbrace;</td>
+
+                </tr>
+                <tr>
+                    <td>&#91;</td>
+                    <td class="cmd"> &amp#91; </td>
+
+                </tr>
+                <tr>
+                    <td>&#93;</td>
+                    <td class="cmd"> &amp#93;</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>
